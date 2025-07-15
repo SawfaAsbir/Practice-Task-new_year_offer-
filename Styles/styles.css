@@ -217,11 +217,16 @@
     flex-direction: column;
     margin: 0 auto;
     position: relative;
+    margin-bottom: 120px;
      
 }
 .sixth-section-content{
     text-align: center;
     /* position: relative; */
+    margin: 0px;
+}
+.sixth-section-content .first-para-of-sixth-section{
+    margin-bottom: 28px;
 }
 .heading-of-sixth-section{
     font-size: 24px;
@@ -252,8 +257,6 @@
     position: absolute;
     bottom: 0px;
     right: 584px;
-    
-    
 }
 .second-img-of-sixth-section{
     width: 305.69px;
@@ -268,7 +271,114 @@
     color: #FF0000;
 }
 
+/* styles of seventh section */
+.seventh-section{
+    max-width: 1320px;
+    height: 1163px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+.content-of-seventh-section h2, p{
+    margin: 0;
+}
+.content-of-seventh-section h2{
+    margin-bottom: 16px;
+}
+.content-of-seventh-section .first-para-of-seventh-section{
+    margin-bottom: 22px;
+}
+.content-of-seventh-section .second-para-of-seventh-section{
+    margin-bottom: 48px;   
+}
 
+.heading-of-seventh-section{
+    gap: 2px;
+    color: #FF0000;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.first-para-of-seventh-section{
+    font-size: 48px;
+    font-weight: 900;
+}
+.second-para-of-seventh-section{
+    font-size: 20px;
+    opacity: 0.6;
+}
+.image-of-seventh-section img{
+    margin: 0px 12px 12px 0px;
+}
+.image-of-seventh-section{
+    margin-bottom: 120px;
+}
+
+/* styles of eighth section */
+.eighth-section{
+    margin-top: 120px;
+    max-width: 1320px;
+    height: 616px;
+    background-color: rgba(255, 0, 0, 0.05);
+    border-radius: 10px;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+.first-para-of-eighth-section{
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 22px;
+}
+.second-para-of-eighth-section{
+    font-size: 20px;
+    line-height: 32px;
+    opacity: 0.6;
+    margin-bottom: 48px;
+}
+.content-of-eighth-section img{
+    margin-bottom: 40px;
+}
+.content-of-eighth-section .second-para-of-eighth-section{
+    max-width: 896px;
+    height: 64px;
+}
+.btn{
+    position: relative;
+    max-width: 648px;
+    height: 72px;
+    display: flex;
+}
+.input-btn{
+    background-color: #FFFFFF;
+    opacity: 0.6;
+    width: 648px;
+    height: 72px;
+    border-style: none;
+    border-radius: 50px;
+    padding-left: 50px;
+    font-size: 18px;
+}
+.eighth-section-btn{
+    border-style: none;
+    background-color: #FF0000;
+    width: 210px;
+    height: 100%;
+    position: absolute;
+    border-radius: 0px 50px 50px 0px;
+    right: 0px;
+    cursor: pointer;
+}
+.eighth-section-btn span{
+    color: #FFFFFF;
+    font-size: 20px;
+}
 
 
 
