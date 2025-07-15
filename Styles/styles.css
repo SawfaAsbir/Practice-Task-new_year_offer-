@@ -209,6 +209,65 @@
     /* text-align: center; */
 }
 
+/* styles of sixth section */
+.sixth-section{
+    max-width: 1320px;
+    height: 986.07px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    position: relative;
+     
+}
+.sixth-section-content{
+    text-align: center;
+    /* position: relative; */
+}
+.heading-of-sixth-section{
+    font-size: 24px;
+    font-weight: 500;
+}
+.first-para-of-sixth-section{
+    font-size: 72px;
+    font-weight: 900;
+}
+.second-para-of-sixth-section{
+    font-size: 20px;
+    font-weight: 500;
+    opacity: 0.6;
+}
+.images-of-sixth-section{
+    background-image: url(../images/Rectangle\ 2.png);
+    width: 1320px;
+    height: 229px;
+    margin-top: 497px;
+    position: relative;
+    top: 497px;
+    /* display: flex; */
+    margin: 0 auto;
+}
+.first-img-of-sixth-section{
+    width: 796.46px;
+    height: 662.07px;
+    position: absolute;
+    bottom: 0px;
+    right: 584px;
+    
+    
+}
+.second-img-of-sixth-section{
+    width: 305.69px;
+    height: 305.69px;
+    position: absolute;
+    
+    right: 40px;
+    bottom: 279.38px;
+    
+}
+.sixth-section-content .first-para-of-sixth-section span{
+    color: #FF0000;
+}
+
 
 
 
